@@ -22,7 +22,7 @@ Note application create in react.js
 ![addingnote](https://github.com/beernaard/panote-app-react/assets/142719026/ea7da1cc-cad1-456a-8d24-21749e7680c9)
 
 <br>Phone design
-![phone](https://github.com/beernaard/panote-app-react/assets/142719026/300a2add-3ee1-406b-bc79-676e216d828f)
+<br>![phone](https://github.com/beernaard/panote-app-react/assets/142719026/300a2add-3ee1-406b-bc79-676e216d828f)
 
 <br>phone design w functionality
 ![phonesidebar](https://github.com/beernaard/panote-app-react/assets/142719026/e20f7e9c-81ba-4374-9483-a42a8147423f)
