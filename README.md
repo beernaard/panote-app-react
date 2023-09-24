@@ -7,16 +7,16 @@ Note application create in react.js
 <br>https://beernaard.github.io/panote-app-react/
 
 <br>widescreen ui w/ notes
-![widescreen](https://github.com/beernaard/panote-app-react/assets/142719026/92525302-e875-4a62-bbe7-88f61e53ac39)
+![widescreen](https://github.com/beernaard/panote-app-react/assets/142719026/c46ee786-6562-4be0-b105-2c2e214c0822)
+
+<br>Filter by category sort by completed
+![filterbyallsortbyccompleted](https://github.com/beernaard/panote-app-react/assets/142719026/64e0ba8c-a6f6-4fa5-b068-0a034a945b99)
 
 <br>Filter by category e.g Personal
-![filterbycateg](https://github.com/beernaard/panote-app-react/assets/142719026/aab174a8-bdc3-40e2-afad-cccfa522e2cd)
-
-<br>Filter by category  e.g Work
-![filterbycateg2](https://github.com/beernaard/panote-app-react/assets/142719026/34e2ccff-6c88-48d7-b823-793c6cc2abdc)
+![filterbycateg](https://github.com/beernaard/panote-app-react/assets/142719026/f619b005-1aa2-4d13-9962-82363ae7f59f)
 
 <br>Filter by category sort by completed  e.g Personal (compare to "Filter by category e.g Personal")
-![filterbycategsortbycompleted](https://github.com/beernaard/panote-app-react/assets/142719026/90d43e90-e0f9-48f7-8cb5-a67ae2c42d9e)
+![filterbycategsortbycompleted](https://github.com/beernaard/panote-app-react/assets/142719026/4e0edca1-9609-42ed-8d61-30ecc1c3a5ab)
 
 <br>adding note ui/edit note ui
 ![addingnote](https://github.com/beernaard/panote-app-react/assets/142719026/ea7da1cc-cad1-456a-8d24-21749e7680c9)
