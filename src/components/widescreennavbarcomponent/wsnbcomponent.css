@@ -1,0 +1,49 @@
+
+@media screen and (min-width: 600px) {
+    .app-navbar-widescreen-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 1rem;
+        margin-top: 1rem;
+        width: 100%;
+    }
+    
+    .app-navbar-widescreen-p{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    
+    .app-navbar-widescreen-p p{
+        cursor: pointer;
+    }
+    
+    .app-navbar-widescreen-p p:hover{
+        color: rgb(84, 84, 229);
+        transform: scale(1.4);
+    }
+    
+    .app-navbar-widescreen-checkbox{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+    }
+    .app-navbar-widescreen-checkbox p{
+        margin-left: 1rem;
+        margin-right: 3rem;
+    }
+    
+    .app-navbar-uncheck{
+        cursor: pointer;
+    }
+    
+}   
+
+
+@media screen and (max-width: 599px) {
+    .app-navbar-widescreen{
+        display: none;
+    }
+}

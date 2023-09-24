@@ -1,0 +1,120 @@
+.notes-navbar-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+.notes-navbar-container{
+    padding: 0.6rem;
+    background-color: rgb(129, 129, 217);
+    position: relative;
+    width: 100%;
+    height: 120px;
+    box-shadow: 1px -6px 22px 12px rgba(0,0,0,0.41);
+}
+
+.notes-navbar-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 7px;
+    width: 100%;
+}
+
+.notes-navbar-container-below{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    position: relative;
+    margin-top: 0.5rem;
+}
+
+
+.notes-navbar-notes{
+    color: #FFF;
+    user-select: none;
+}
+
+.notes-searchicon{
+    position: absolute;
+    margin: 5px 0 0 3px;
+    color: rgb(98, 98, 98);
+}
+
+.notes-input{
+    width: 100%;
+    border: none;
+    height: 30px;
+    border-radius: 1rem;
+    outline: none;
+    text-indent: 30px;
+    font-size: 15px;
+}
+
+.notes-addicon-widescreen{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(67, 67, 177);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #FFF;
+    margin: 0 1rem;
+    font-size: 30px;
+}
+
+.notes-addicon-widescreen:hover{
+    background-color: rgb(32, 32, 114);
+    transform: scale(1.2);
+}
+
+
+.notes-hamburgericon{
+    display: flex;
+    margin: 5px 0 0 10px;
+    color: #FFF;
+    cursor: pointer;
+}   
+
+.btnnavbar{
+    margin: 0 5px;
+}
+
+.notes-navbar-belowmain{
+    width: 100%;
+}
+
+@media screen and (min-width:1150px) {
+
+    .notes-navbar-container{
+        padding: 1.5rem;
+    } 
+
+    .notes-navbar-content{
+        flex-direction: row;
+        padding: 0 4rem;
+    }
+    
+    .notes-navbar-container-below{
+        margin-left: 2rem;
+        margin-top:10px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .notes-addicon-widescreen{
+        display: flex;
+    }
+    .notes-hamburgericon{
+        display: none;
+    }
+    .notes-hamburgericon{
+        margin-right: 20px;
+    }
+}

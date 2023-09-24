@@ -1,0 +1,87 @@
+.notes-navbar-sidebar{
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    border-radius: 1rem 0;
+    transition: 0.5s ease;
+    z-index: 1;
+}
+
+.notes_close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.notes_close:hover{
+    color: rgb(255, 50, 50);
+}
+
+.notes-nafbar-sidebar-li{
+    list-style: none;
+    margin: 2rem 0 2rem 0;
+    font-size: 30px;
+    color: black;
+    width: 100%;
+    cursor: pointer;
+    user-select: none;
+}
+
+.notes-nafbar-sidebar-li-hover{
+    list-style: none;
+    margin: 2rem 0 2rem 0;
+    font-size: 30px;
+    width: 100%;
+    cursor: pointer;
+    color: rgb(93, 123, 255);
+    user-select: none;
+}
+
+.notes-nafbar-sidebar-li:hover{
+    color: rgb(93, 123, 255);
+}
+
+.app-navbar-sidebar-checkbox p{
+    user-select: none;
+}
+
+@media screen and (min-width: 600px) {
+    .notes-navbar-sidebar{
+        position: relative;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    .notes-nafbar-siebar-content{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .notes-nafbar-sidebar-ul{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 2.1rem;
+    }
+    .notes-nafbar-sidebar-ul li{
+        margin-left: 2rem;
+    }
+    .app-navbar-sidebar-checkbox{
+        display: flex;
+        align-items: center;
+        margin: 0 3rem;
+    }
+    .app-navbar-uncheck{
+        margin-right: 10px;
+    }
+
+    .notes_close{
+        display: none;
+    }
+
+}   

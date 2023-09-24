@@ -1,0 +1,83 @@
+.note-list-content-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 1.8rem;
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: -6px 7px 9px -1px rgba(0,0,0,0.23);
+    overflow-y: auto;
+}
+
+.note-content-categ h4{
+    user-select: none;
+}
+
+.note-content h1,p{
+    user-select: none;
+}
+
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.note-content-categ{
+    padding: 5px;
+    border-radius: 20px;
+    width: 110px;
+    text-align: center;
+}
+
+.note-content-categ h4{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.note-btn-content{
+    display: flex;
+    align-items: center;
+}
+
+.checkbtn, .editbtn, .deletebtn{
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.note-content h1{
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.note-content p{
+    font-size: 20px;
+}
+
+@media screen and (min-width:1150px) {
+
+    .note-list-content-p{
+        width: 400px;
+        height: 250px;
+    }
+}
+
+@media screen and (min-width:900px) {
+
+    .note-list-content-p{
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width:600px) {
+
+    .note-list-content-p{
+        width: 360px;
+        height: 200px;
+    }
+}
