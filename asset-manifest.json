@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/panote-app-react/static/css/main.e4b40bf6.css",
+    "main.js": "/panote-app-react/static/js/main.140688da.js",
+    "index.html": "/panote-app-react/index.html",
+    "main.e4b40bf6.css.map": "/panote-app-react/static/css/main.e4b40bf6.css.map",
+    "main.140688da.js.map": "/panote-app-react/static/js/main.140688da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4b40bf6.css",
+    "static/js/main.140688da.js"
+  ]
+}
