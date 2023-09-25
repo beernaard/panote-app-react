@@ -2,7 +2,7 @@
 Note application create in react.js
 
 <br>Responsive Note web app
-<br>Default functionality such as update/edit, mark as completed and delete
+<br>Default functionality such as search, update/edit, mark as completed and delete
 <br>Added filtering functionality by category and Sorting Functionality by completed
 
 <br>Link of the Web App below via github pages
