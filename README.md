@@ -16,7 +16,7 @@ Note application create in react.js
 
 ![widescreen](https://github.com/beernaard/panote-app-react/assets/142719026/c46ee786-6562-4be0-b105-2c2e214c0822)
 
-<br>Filter by category sort by completed
+<br>sorted by completed
 
 ![filterbyallsortbyccompleted](https://github.com/beernaard/panote-app-react/assets/142719026/64e0ba8c-a6f6-4fa5-b068-0a034a945b99)
 
